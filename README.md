@@ -24,7 +24,7 @@ This setup helps you:
 
 ---
 
-## 🛠️ Folder Structure
+## 🛠️ Folder Structure you can follow seperate ML libs.
 
 ```
 docker-ml-setup/
@@ -101,8 +101,9 @@ Once ready, this setup can be extended to:
 
 ## 🙌 Author
 
-Crafted with ❤️ by [Your Name]  
-If this helps, feel free to ⭐ the repo or connect on [LinkedIn](https://www.linkedin.com)
+Crafted with ❤️ by [Digvijay]  
+If this helps, feel free to ⭐ the repo or connect on [LinkedIn]
+(www.linkedin.com/in/digvijaykewale)
 
 ---
 
