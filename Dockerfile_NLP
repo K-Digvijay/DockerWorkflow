@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /workspace
+
+RUN pip install --no-cache-dir \
+    spacy==3.7.4 \
+    nltk==3.8.1 \
+    gensim==4.3.2 \
+    textblob==0.18.0.post0 \
+    transformers==4.42.2 \
+    jupyterlab
+
+RUN python -m nltk.downloader punkt stopwords averaged_perceptron_tagger && \
+    python -m textblob.download_corpora && \
+    python -m spacy download en_core_web_sm
+
+EXPOSE 8888
+
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]

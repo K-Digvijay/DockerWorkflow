@@ -1,0 +1,25 @@
+FROM python:3.11-slim
+
+WORKDIR /workspace
+
+RUN pip install --no-cache-dir \
+    scikit-learn==1.4.2 \
+    pandas==2.2.2 \
+    numpy==1.26.4 \
+    matplotlib==3.8.4 \
+    seaborn==0.13.2 \
+    joblib==1.4.2 \
+    scipy==1.13.1 \
+    mlxtend==0.23.1 \
+    yellowbrick==1.5 \
+    imbalanced-learn==0.11.0 \
+    xgboost==2.0.3 \
+    lightgbm==4.3.0 \
+    jupyterlab==4.1.8 \
+    fastapi==0.110.3 \
+    uvicorn==0.29.0
+
+EXPOSE 8888
+EXPOSE 8000
+
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
