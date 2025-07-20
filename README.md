@@ -101,7 +101,7 @@ Once ready, this setup can be extended to:
 
 ## 🙌 Author
 
-Crafted with ❤️ by [Digvijay]  
+Crafted with ❤️ by [Digvijay K]  
 If this helps, feel free to ⭐ the repo or connect on [LinkedIn](www.linkedin.com/in/digvijaykewale)
 
 ---
